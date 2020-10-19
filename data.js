@@ -1,28 +1,28 @@
 const data = {
-    "fullname" : "Mr. Worawoot Bunsri",
-    "nickname" : "ZBew",
-    "motto" : "When you stop advancing, you’ve already begun to retreat.",
+    "fullname" : "Ms. Kanda Peakaew",
+    "nickname" : "Songkran",
+    "motto" : "Learn from yesterday live for today and hope for tomorrow .",
     "work" : "Student at Software Engineering Program in Nakhon Pathom Rajabhat University",
     "aboutme" : {
-        "name" : "Mr.Worawoot Bunsri",
-        "nickname" : "ZBew",
-        "sex" : "Male",
-        "education" : "Songphinongwittaya School",
-        "date" : "Sunday 25th July 1997",
-        "age" : "24 years",
+        "name" : "Ms. Kanda Peakaew",
+        "nickname" : "Songkran",
+        "sex" : "Female",
+        "education" : "Thamakavitthayakom School",
+        "date" : "Sunday 13th February 2000",
+        "age" : "20 years",
         "nationality" : "Thai",
         "race" : "Thai",
         "religion" : "Buddhism",
-        "bloodgroup" : "O",
-        "address" : "323/332 Moo.1 Mueang Borphub  NakhonPathome 73000",
-        "phone" : "0955896970",
-        "email" : "614259053@webmail.npru.ac.th",
-        "characteristic" : "Talk openly",
-        "hobbies" : "Listen to music, See movie, Betta fish farming, Learn more about your interests.",
-        "sport" : "Futsal",
+        "bloodgroup" : "A",
+        "address" : "48 thamaka thamaka kanchanaburi 71130",
+        "phone" : "0843625960",
+        "email" : "614259024@webmail.npru.ac.th",
+        "characteristic" : "Love beauty",
+        "hobbies" : "Listen to music, See movie and shopping.",
+        "sport" : "Swim",
         "pets" : "dog",
         "attitude" : "Positive",
-        "motto" : "When you stop advancing, you’ve already begun to retreat."
+        "motto" : "Learn from yesterday live for today and hope for tomorrow."
     },
     "education" : {
         "education1" : "kabure School",
@@ -43,11 +43,11 @@ const data = {
         "json" : "Level-Basic"
     },
     "contact" : {
-        "fb" : "สะ' บิว",
-        "ig" : "im.billyz",
-        "line" : "bew_wrp",
-        "email" : "614259053@webmail.npru.ac.th",
-        "phone" : "0955896970"
+        "fb" : "Songkran Songkran",
+        "ig" : "Songkran_se",
+        "line" : "kanny1933",
+        "email" : "614259024@webmail.npru.ac.th",
+        "phone" : "0843625960"
     }
 };
 module.exports = data;

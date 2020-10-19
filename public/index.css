@@ -3,11 +3,11 @@
 body {
     margin: 0;
     padding: 0;
-    background-color:#24252a;
+    background-color:#E79796;
+        font-family: 'Montserrat', sans-serif;
 }
 
 li, a {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #edf0f1;
@@ -27,15 +27,15 @@ header{
     font-size: 16px;
     font-weight: 820;
     color: #24252a;
-    background-color: #79dfd6;
+    background-color: #fff;
     border: none;
-    border-radius: 50px;
+    border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 
-.logo:hover {
-    background-color: #79dfd6 ;
+.logo:hover,.nav_links li a:hover {
+    background-color: #E69D45 ;
 }
 
 .nav_links {
@@ -49,11 +49,6 @@ header{
 
 .nav_links li a {
     transition: all 0.3s ease 0s;
-
-}
-
-.nav_links li a:hover{
-    color: #79dfd6;
 
 }
 
@@ -75,13 +70,15 @@ header{
 }
 
 .bg {
-    background-image: url("https://images.unsplash.com/photo-1522332870908-7c428896fb25?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    background-image: url("https://miro.medium.com/max/700/1*jUIOlgg-tb8SfRLGXkNhzA.jpeg");
     display: flex;
     box-sizing: border-box;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-.content {
+.content_img {
     padding-top: 2.5%;
     padding-bottom: 2.5%;
     box-sizing: border-box;
@@ -90,10 +87,8 @@ header{
 
 .image {
     margin-left: 100px;
-    width: 55%;
-    -moz-border-radius: 700px;
-    -webkit-border-radius: 700px;
-    border-radius: 700px;
+    width: 50%;
+    border-radius: 50px;
 }
 
 main {
@@ -101,24 +96,19 @@ main {
 }
 
 .idx1 {
-    padding-top: 150px;
-    padding-left: 7.8%;
+    padding-top: 200px;
     color:#ffffff ;
-    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
 }
 
 .idx2 {
     padding-top: 10px;
-    padding-left: 7.8%;
     color:#ffffff ;
-    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     line-height: 35px;
 }
 
 .ft {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #edf0f1;
@@ -128,50 +118,22 @@ main {
     padding: 40px;
 }
 
-.abm {
-    padding-top: 10px;
-    padding-left: 7.8%;
-    margin-top: 50px;
-    color:#ffffff ;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
-}
-
-.edt {
+.topic{
     padding-top: 10px;
     padding-left: 15%;
     margin-top: 50px;
     color:#ffffff ;
-    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
 }
 
-.exp {
+.topic_exp{
     padding-top: 10px;
-    padding-left: 105px;
+    padding-left: 28%;
     margin-top: 50px;
     color:#ffffff ;
-    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
 }
 
-.skill {
-    padding-top: 10px;
-    padding-left: 15%;
-    margin-top: 50px;
-    color:#ffffff ;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
-}
-
-.cta {
-    padding-top: 10px;
-    padding-left: 7.8%;
-    margin-top: 50px;
-    color:#ffffff ;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
-}
 
 .flexbox {
     margin-top: 50px;
@@ -199,7 +161,14 @@ main {
     width: 700px;
 }
 
-.edbox {
+.box_exp{
+    padding-top: 10px;
+    padding-left: 15%;
+    display: block;
+    box-sizing: border-box;
+    width: 700px;
+} 
+/* .edbox {
     padding-top: 10px;
     padding-left: 7.8%;
     padding-bottom: 100px;
@@ -215,7 +184,7 @@ main {
     display: block;
     box-sizing: border-box;
     width: 700px;
-}
+} */
 
 .boxcta {
     padding-top: 10px;
@@ -239,3 +208,12 @@ main {
 .email {
     font-size: 20px;
 }
+
+
+.con_high {
+   height: 500px;
+}
+
+.con_high3 {
+    height: 300px;
+ }
